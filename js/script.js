@@ -8,4 +8,10 @@ $(document).ready(function(){
 		caption: true,
 		auto: true
 	});
+    
+    $('.nav').on('click', 'a[href="#about"]', function(ev) {
+        ev.preventDefault();
+        $('.content, .slider').fadeOut();
+        $('.about-me').fadeIn();
+    });
 });

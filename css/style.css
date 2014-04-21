@@ -17,6 +17,16 @@
 /* #Site Styles
 ================================================== */
 
+
+#under-construction {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, .75);
+    z-index: 1987;
+    position: fixed;
+}
+
+
 figure img {
 	width: 100%;
 	height: auto;
@@ -156,6 +166,11 @@ figure img {
 }
 .content button:hover {
 	box-shadow: 2px 2px 4px #aaa;
+}
+
+.about-me {
+    display: none;
+    
 }
 
 /* FOOTER BOX */
