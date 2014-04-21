@@ -17,7 +17,7 @@
 /* #Site Styles
 ================================================== */
 
-
+@import url(http://fonts.googleapis.com/css?family=Ubuntu:400,500,700&subset=latin,latin-ext);
 
 figure img {
 	width: 100%;
@@ -53,6 +53,7 @@ figure img {
 	font-size: 14px;
 	letter-spacing: 2px;
 	word-spacing: 2px;
+    text-align: center;
 }
 .header .nav {
 	margin-top: 100px;
@@ -182,7 +183,7 @@ figure img {
 	height: 32px;
 	display: block;
 	text-indent: -999999px;
-	margin: 10px 5px;;
+	margin: 10px 5px;
 }
 .footer .social li a[title=facebook] {
 	background: url(../img/social_3-32.png) transparent left top no-repeat;
