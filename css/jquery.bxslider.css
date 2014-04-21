@@ -3,12 +3,16 @@
 	background-color: #fff;
 	width: 55%;
 	height: auto;
-	margin-right: 10px;
+	margin-right: 20px;
 }
 .bx-wrapper .figcaption h2 {
 	text-align: center;
 	margin-top: 10px;
 	margin-bottom: 30px;
+}
+
+.bx-wrapper .figcaption p {
+    margin-right: 10px;
 }
 
 /** RESET AND LAYOUT
