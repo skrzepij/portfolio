@@ -24,6 +24,7 @@
     background-color: rgba(255, 255, 255, .85);
     z-index: 1987;
     position: fixed;
+
 }
 
 #uc-info {
@@ -38,12 +39,16 @@
 #uc-contact {
     width: auto;
     text-align: center;
-
     
 }
 
 #uc-contact span:first-of-type {
     padding-right: 30px;
+}
+
+#uc-contact span a {
+    
+    transition: all .3s
 }
 
 
@@ -54,6 +59,11 @@ figure img {
 
 .container {
 	background-color: #fff;
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+    filter: blur(5px);
 }
 
 /* HEADER BOX */
